@@ -1,0 +1,28 @@
+package com.example.recursion;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		int count = 0;
+		int num = 10;
+	     if(num > 1)
+	     {
+	    	 for(int i = 1; i<=10; i++)
+	    	 {
+	    		 if(num%i==0)
+	    		 {
+	    			 count++;
+	    		 }
+	    	 }
+	     }
+	     if(count==2)
+	     {
+	    	 System.out.println("number is prime : "+num);
+	     }
+	     else
+	     {
+	    	 System.out.println("number is not prime : "+num);
+	     }
+	
+	}
+}
